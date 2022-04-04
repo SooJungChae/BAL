@@ -11,5 +11,6 @@ public interface Gun {
 
     public void shoot();
     public void reload();
+    public Integer getAmmo();
 
 }

@@ -10,11 +10,10 @@ package com.java.basic.polyporhism;
 public class AK47 implements Gun {
 
     private Integer ammo;
-    private final Integer MAX_AMMO = 30;
+    private static final Integer MAX_AMMO = 30;
 
     public AK47(Integer ammo) {
         this.ammo = ammo;
-        System.out.println("AK47 습득_" + MAX_AMMO + "/" + this.ammo);
     }
 
     @Override
@@ -27,5 +26,10 @@ public class AK47 implements Gun {
     public void reload() {
         this.ammo = 30;
         System.out.println("AK47 재장전 완료 : " + MAX_AMMO + "/" + this.ammo);
+    }
+
+    @Override
+    public Integer getAmmo() {
+        return null;
     }
 }

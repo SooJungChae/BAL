@@ -13,19 +13,10 @@ public class GunMain {
 
     @Test
     public void shootingTest() {
-        Gun ak47 = new AK47(30);
-        Gun m16 = new M16(30);
 
-        ak47.shoot();
-        ak47.shoot();
-        ak47.shoot();
-        ak47.shoot();
-        ak47.shoot();
-        ak47.shoot();
-        ak47.shoot();
-        ak47.shoot();
-        ak47.shoot();
-        ak47.shoot();
+        Shooter s1 = new Shooter();
+        s1.setGun(new AK47(30));
+
     }
 
 }

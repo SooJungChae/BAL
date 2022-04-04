@@ -29,4 +29,9 @@ public class M16 implements Gun {
         this.ammo = 30;
         System.out.println("M16 재장전 완료 : " + MAX_AMMO + "/" + this.ammo);
     }
+
+    @Override
+    public Integer getAmmo() {
+        return null;
+    }
 }
