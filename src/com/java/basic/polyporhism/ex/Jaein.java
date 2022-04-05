@@ -1,4 +1,4 @@
-package com.java.basic.polyporhism;
+package com.java.basic.polyporhism.ex;
 
 /**
  * @author seongnamfc
