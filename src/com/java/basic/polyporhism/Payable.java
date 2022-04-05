@@ -1,15 +1,14 @@
-package com.java.basic.polyporhism;
+package com.java.basic.polyporhism;/**
+  * @package com.java.basic.polyporhism
+  * @file Payable
+  * @description
+  *
+  * @author seongnamfc
+  * @date 2022/04/05
+  */
+public interface Payable<T> {
 
-/**
- * @author seongnamfc
- * @package com.java.basic.polyporhism
- * @file Payable
- * @description
- * @date 2022/04/05
- */
-public interface Payable {
-
-    public void pay();
+    public void pay(T t);
     public void cancel();
 
 }

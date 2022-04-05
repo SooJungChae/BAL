@@ -10,7 +10,7 @@ package com.java.basic.polyporhism;
 public class LPay implements Payable {
 
     @Override
-    public void pay() {
+    public void pay(Object o) {
         System.out.println("LPay 결제");
     }
 

@@ -9,7 +9,7 @@ package com.java.basic.polyporhism;
  */
 public class NPay implements Payable {
     @Override
-    public void pay() {
+    public void pay(Object o) {
         System.out.println("NPay 결제");
     }
 
