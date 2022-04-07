@@ -7,5 +7,5 @@ package com.java.basic.generic;
  * @description
  * @date 2022/04/06
  */
-public interface GenericInterface {
+public interface GenericInterface<T> {
 }

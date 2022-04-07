@@ -14,6 +14,14 @@ import java.util.ArrayList;
 public class GenericTest {
 
     @Test
+    public void testClassGeneric() {
+        GenericClass gc = new GenericClass<>();
+        GenericClass<String> gcStr = new GenericClass<>();
+        GenericClass<Integer> gcInteger = new GenericClass<>();
+        System.out.println("test");
+    }
+
+    @Test
     public void testNonGeneric() {
         // 제네릭 미사용
         ArrayList list = new ArrayList();
