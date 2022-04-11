@@ -11,8 +11,18 @@ import java.awt.print.PrinterAbortException;
  */
 public class MarketProgram {
 
-        public void getRequest(ParamDto paramDto) {
-                System.out.println(paramDto);
+        private ParamDto paramDto;
+
+//        public MarketProgram(ParamDto paramDto) {
+//                this.paramDto = paramDto;
+//        }
+
+        public void call(ParamDto paramDto) {
+                this.paramDto = paramDto;
+        }
+
+        public void getRequest() {
+                System.out.println(this.paramDto);
         }
 
 

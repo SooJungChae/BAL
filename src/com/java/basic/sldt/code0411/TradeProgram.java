@@ -15,4 +15,9 @@ public class TradeProgram {
         this.paramDto = paramDto;
     }
 
+    public void request() {
+        MarketProgram marketProgram = new MarketProgram();
+        marketProgram.call(this.paramDto);
+    }
+
 }
