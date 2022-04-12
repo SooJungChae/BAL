@@ -20,9 +20,9 @@ public class ParamTest {
         paramDto.setOption("85");
 
         TradeProgram tradeProgram = new TradeProgram(paramDto);
-        tradeProgram.request();
-
         MarketProgram marketProgram = new MarketProgram();
+        tradeProgram.request(marketProgram);
+
         marketProgram.getRequest();
     }
 
